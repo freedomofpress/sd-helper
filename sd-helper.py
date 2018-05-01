@@ -22,7 +22,8 @@ from multiprocessing import Pool
 from datetime import datetime as dt
 
 # Room id of "https://gitter.im/freedomofpress/securedrop".
-sd_room_id = '53bb302d107e137846ba5db7'
+# sd_room_id = '53bb302d107e137846ba5db7'
+sd_room_id = os.environ.get('GITTER_ROOM_ID')
 
 target_url = 'https://api.gitter.im/v1/rooms/' + sd_room_id + '/chatMessages'
 stream_url = 'https://stream.gitter.im/v1/rooms/' + sd_room_id + '/chatMessages'
