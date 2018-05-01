@@ -57,6 +57,7 @@ def catch_exceptions(cancel_on_failure=False):
     return decorator
 
 
+"""
 # Read the API Token from external file.
 def get_api_token():
     with open("auth.yml", 'r') as auth_ymlfile:
@@ -65,6 +66,13 @@ def get_api_token():
         except yaml.YAMLError as exc_a:
             print(exc_a)
     api_token = c['apitoken']
+    return api_token
+"""
+
+
+# Alternate way to read the API token
+def get_api_token():
+    api_token = os.environ.get('GITTER_API_TOKEN')
     return api_token
 
 
