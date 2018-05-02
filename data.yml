@@ -9,7 +9,7 @@ task1:
     - 2
     - 4
   time:
-    - "22:25"
+    - "16:55"
 task2:
   message: >
    Good 'timezone' everyone! Our standup is [in 5 minutes](https://www.timeanddate.com/worldclock/fixedtime.html?msg=SecureDrop+Daily+Standup&year=&month=&day=&hour=10&min=00&sec=00&p1=224&am=15) at the usual location: https://meet.jit.si/QuickWizardsDanceHigh.
@@ -20,11 +20,11 @@ task2:
   day:
     - 3
   time:
-    - "22:25"
+    - "16:55"
 task3:
   message: >
    Good 'timezone' everyone! Our weekly UX meeting is in 5 minutes at the usual location: https://meet.jit.si/QuickWizardsDanceHigh.
   day:
     - 0
   time:
-    - "22:55"
+    - "17:25"
