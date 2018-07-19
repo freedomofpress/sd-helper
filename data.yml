@@ -25,6 +25,6 @@ task3:
   message: >
    Good 'timezone' everyone! Our weekly UX meeting is in 5 minutes at the usual location: https://meet.jit.si/QuickWizardsDanceHigh.
   day:
-    - 0
+    - 3
   time:
-    - "17:25"
+    - "15:55"
